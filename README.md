@@ -142,7 +142,8 @@ pip install -U fastapi pydantic "httpx[socks]"
 下载并解压 `cache.zip`：
 
 ```bash
-wget --quiet https://www.dropbox.com/scl/fi/2s4b848d4qqrz87bbfc2z/cache.zip?rlkey=f7tyf4952ey253xlzvb1lwnmc -O tmp.zip
+#wget --quiet https://www.dropbox.com/scl/fi/2s4b848d4qqrz87bbfc2z/cache.zip?rlkey=f7tyf4952ey253xlzvb1lwnmc -O tmp.zip
+wget https://huggingface.co/datasets/svjack/3DitScene_cache/resolve/main/cache.zip -O tmp.zip
 unzip tmp.zip
 ```
 
