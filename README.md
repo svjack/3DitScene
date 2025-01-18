@@ -131,7 +131,8 @@ pip install nerfacc==0.5.2 -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/
 ```bash
 git clone https://github.com/svjack/3DitScene.git ~/threestudio --recursive
 cd ~/threestudio
-pip install -r requirements.txt
+#pip install -r requirements.txt
+pip install -r requirements_edit.txt
 pip install -U fastapi pydantic "httpx[socks]"
 ```
 
