@@ -69,6 +69,8 @@ source ~/.bashrc
 创建一个名为 `py310` 的虚拟环境，并激活它：
 
 ```bash
+sudo apt-get update && sudo apt-get install git-lfs ffmpeg cbm
+
 conda create -n py310 python=3.10 -y
 conda activate py310
 ```
