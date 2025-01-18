@@ -156,7 +156,9 @@ pip install ./submodules/MobileSAM-lang
 
 #### 下载并安装 `diff_gaussian_rasterization`（不指定 CUDA 版本）
 ```bash
-pip install ./submodules/diff-gaussian-rasterization
+#pip install ./submodules/diff-gaussian-rasterization
+wget https://huggingface.co/datasets/svjack/3DitScene_cache/resolve/main/diff_gaussian_rasterization-0.0.0-cp310-cp310-linux_x86_64.whl -O diff_gaussian_rasterization-0.0.0-cp310-cp310-linux_x86_64.whl
+pip install diff_gaussian_rasterization-0.0.0-cp310-cp310-linux_x86_64.whl
 ```
 
 #### 下载并安装 `diff_gaussian_rasterization`（指定 CUDA 11.8 版本）
